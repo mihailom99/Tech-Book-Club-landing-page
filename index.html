@@ -45,13 +45,16 @@
               </div>
 
               <p>200+ developers joined already</p>
+              
             </div>
           </div>
         </div>
-        <img
-          src="./assets/images/image-hero-desktop.webp"
-          alt="People reading books and talking"
-        />
+
+        <picture>
+          <source media="(min-width: 1024px)" srcset="./assets/images/image-hero-desktop.webp">
+          <source media="(min-width: 768px)" srcset="./assets/images/image-hero-tablet.webp">
+          <img src="./assets/images/image-hero-mobile.webp" alt="People reading books and talking">
+        </picture>
       </div>
 
       <div class="featuresContainer">
